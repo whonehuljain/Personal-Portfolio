@@ -1,0 +1,459 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+@font-face {
+    font-family: 'universal_doomsday_mediumRg';
+    src: url('../font/universaldoomsdaymedium-webfont.woff2') format('woff2'),
+         url('../font/universaldoomsdaymedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5em;
+}
+
+.bg-img{
+    background: url('../images/bg.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+nav ul li:hover a{
+    text-decoration: underline;
+}
+
+.header a{
+    padding-top: 1.5em;
+}
+
+.hello-text{
+    font-family: 'ADLaM Display', cursive;
+    font-size: 11rem;
+    text-align: center;
+    margin: 0;
+}
+
+.main-text p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 1em 5em;
+}
+
+.btns{
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.contact-btn, .resume{
+    background-color: #FE9893;
+    height: 5em;
+    width: 15em;
+    border-radius: 100em;
+    padding: 0 2em;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.4em 0.4em;
+}
+
+.contact-btn a, .resume a{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+
+.what-i-do{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-i-do img{
+    width: 60em;
+    height: auto;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+}
+
+.what-i-do .content h1{
+    font-family: 'universal_doomsday_mediumRg';
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.content p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.sk-crd{
+    margin-top: 5em;
+    text-align: left;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.skill{
+    text-align: center;
+}
+
+.skill i{
+    font-size: 4rem;
+    color: #424242;
+}
+
+/* .skill:hover i{
+    color: #000;
+} */
+
+.skill h3{
+    font-size: 2rem;
+}
+
+.feat-projects h1, .photography h1, .achievements h1, .twitter h1{
+    font-family: 'universal_doomsday_mediumRg';
+    font-size: 5rem;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+.feat-projects p, .photography p, .achievements p{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3.5em;
+}
+
+.card img{
+    width: 35em;
+    height: 34.1em;
+    border-radius: 1.5em 1.5em 0 0;
+}
+
+.card{
+    border-radius: 1.5em;
+    border: #000 solid 1px;
+    width: 35em;
+    box-shadow: 0.5em 0.5em;
+}
+
+.project-name{
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+}
+
+.project-name i, .project-name h2{
+    font-size: 2rem;
+    color: #000;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more{
+    background-color: #FE9893;
+    height: 5em;
+    width: 18em;
+    border-radius: 100em;
+    padding: 0 2em;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.4em 0.4em;
+    margin-top: 3.5em;
+}
+
+.more a{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5em;
+}
+
+.insta-posts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post{
+    border-radius: 3px;
+    box-shadow: 0.7em 0.7em;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5em;
+}
+
+.id{
+    background-color: #FE9893;
+    height: 5em;
+    width: 25em;
+    border-radius: 100em;
+    padding: 0 2em;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.4em 0.4em;
+    margin-top: 3.5em;
+}
+
+.id a{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+
+.ach{
+    display: flex;
+    justify-content: space-between;
+    gap:3em;
+    align-items: center;
+}
+
+.ach-card{
+    text-align: center;
+    border-radius: 1.3em;
+    border: #000 solid 1px;
+    box-shadow: 0.5em 0.5em;
+}
+
+.ach-card img{
+    width: 25em;
+    height: auto;
+    border-radius: 1.3em 1.3em 0 0;
+}
+
+.details h2{
+    text-align: center;
+    color: #000;
+    margin: 0.7em 1em;
+    font-size: 2em;
+}
+
+.twt{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 2em 0;
+}
+
+.contact h1{
+    font-family: 'universal_doomsday_mediumRg';
+    font-size: 5rem;
+    margin-top: 2em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.envelop img{
+    margin: 3em 0 0 0;
+    height: 500px;
+    width: auto;
+    pointer-events: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -999;
+}
+
+.contact-form{
+    text-align: center;
+    padding: 5em 0 0 0;
+}
+
+.det{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+}
+
+input, label{
+    display: block;
+}
+
+label{
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+#name, #email{
+    width: 11em;
+    height: 2.3em;
+    border-radius: 0.65em;
+    border: #000 solid 1px;
+    box-shadow: 0.2em 0.2em;
+    margin-bottom: 1.3em;
+}
+
+#msg{
+    width: 24.5em;
+    height: auto;
+    border-radius: 0.65em;
+    border: #000 solid 1px;
+    box-shadow: 0.2em 0.2em;
+}
+
+#msg::placeholder{
+    font-family: 'Poppins';
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #D9D9D9;
+}
+
+input:focus{
+    border: #FE9893 solid 2px;
+}
+
+button{
+    width: 25em;
+    height: 2.6em;
+    border-radius: 0.65em;
+    border: #000 solid 1px;
+    box-shadow: 0.2em 0.2em;
+    background-color: #FE9893;
+    margin-top: 3em;
+    margin-bottom: 12em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ff7f78;
+}
+
+footer{
+    background-color: #e6e6e6;
+}
+
+.social{
+    display: flex;
+    gap: 1em;
+    padding-bottom: 4em;
+    margin-top: 2em;
+}
+
+.icon{
+    background: #E4E8EB;
+    border-radius: 150%;
+    padding: 1em;
+    height: 1.8em;
+    width: 1.8em;
+}
+
+.icon i{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #5A7184;
+    margin: 0;
+}
+
+.left img{
+    width: 17em;
+    height: auto;
+    pointer-events: none;
+    margin-top: 4em;
+}
+
+.left p{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 3em;
+}
+
+.right img{
+    width: 18em;
+    height: auto;
+    border-radius: 100%;
+    border: #424242 solid 5px;
+    margin-top: 3em;
+    pointer-events: none;
+}
+
+.right p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 1em;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
